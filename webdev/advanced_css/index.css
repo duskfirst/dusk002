@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 500px;
+    width: 500px;
+    border: 10px solid blue;
+    display: grid;
+    background-color: red;
+    position: relative;
+    top: 10rem;
+    left: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.c1{
+    width: 5rem;
+    height: 5rem;
+    background-color: orange;
+    margin: 10px;
+    position: absolute;
+}
+.top{
+    top:0;
+}
+.bottom{
+    bottom:0;
+}
+.left{
+    left:0;
+}
+.right{
+    right:0;
+}
+#yellow{
+    background-color: yellow;
+}
